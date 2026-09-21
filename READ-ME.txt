@@ -1,0 +1,14 @@
+Md. Tanvir Ahmmed | HTML website edition
+
+1. Open Publishing-Guide.html for publishing instructions.
+2. Open website/index.html in a browser to view your website offline.
+3. For Cloudflare Pages direct upload, upload only the website folder.
+4. Md-Tanvir-Ahmmed.html supplied separately is the same standalone website.
+
+This HTML snapshot includes public pages, search, filters, profile photographs
+and a public CV. Contact opens an email application. Admin editing, Supabase
+authentication, saved inquiries and dynamically generated sitemap require
+the separate Md-Tanvir-Ahmmed-Website.zip full Next.js project.
+
+Compiled 21 September 2026. Fonts and icon licensing notices are embedded
+in the HTML and copied into website/LICENSES.txt.

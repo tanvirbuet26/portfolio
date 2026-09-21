@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Publishing guide | Md. Tanvir Ahmmed</title>
+<style>
+:root{--red:#991b1b;--ink:#172333;--muted:#586574;--line:#dbe1e7;--paper:#fff;--soft:#f5f7f9;--teal:#0f6b69}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:20px}body{margin:0;color:var(--ink);background:var(--soft);font:16px/1.7 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}header{background:var(--ink);color:#fff;border-top:6px solid var(--red);padding:56px max(24px,calc((100vw - 1100px)/2)) 44px}header p{max-width:750px;color:#dce3ec}h1{font-size:clamp(32px,5vw,48px);line-height:1.16;letter-spacing:-1.2px;margin:12px 0 22px}h2{font-size:28px;line-height:1.3;letter-spacing:-.5px;margin:0 0 20px}h3{font-size:20px;line-height:1.4;margin:30px 0 12px}h4{font-size:16px;margin-bottom:8px}p{margin:0 0 16px}a{color:var(--red);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}button{font:inherit;cursor:pointer;border:1px solid var(--line);border-radius:5px;background:white;color:var(--ink);padding:8px 15px}button:hover{background:#f1f4f7}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #148f8b;outline-offset:3px}.eyebrow{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:2px}.layout{max-width:1160px;margin:auto;display:grid;grid-template-columns:235px minmax(0,1fr);gap:36px;padding:36px 24px 72px}aside nav{position:sticky;top:24px;background:var(--paper);border:1px solid var(--line);padding:22px}aside a{display:block;font-size:14px;padding:6px 0;color:var(--ink);text-decoration:none}aside a:hover{color:var(--red)}main{min-width:0}section{background:var(--paper);border:1px solid var(--line);padding:32px;margin-bottom:26px}.note{background:#f4f8f8;border-left:4px solid var(--teal);padding:17px 20px;margin:20px 0}.note p:last-child{margin-bottom:0}.important{border-left-color:var(--red);background:#fbf5f5}.step{display:inline-flex;width:32px;height:32px;border-radius:50%;background:var(--red);color:#fff;align-items:center;justify-content:center;margin-right:9px;font-size:15px;vertical-align:middle}ol,ul{padding-left:23px}li{padding-left:3px;margin:8px 0}pre{background:#122237;color:#e8f0f6;padding:18px 20px;border-radius:6px;overflow-x:auto;font:13px/1.8 ui-monospace,SFMono-Regular,Consolas,monospace}code{font:13px/1.7 ui-monospace,SFMono-Regular,Consolas,monospace;background:#edf1f5;padding:2px 5px;border-radius:3px;overflow-wrap:anywhere}pre code{background:none;padding:0;color:inherit;overflow-wrap:normal}.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px;margin:18px 0}th,td{text-align:left;vertical-align:top;padding:12px;border:1px solid var(--line)}th{background:#edf1f5;font-weight:650}td code{font-size:12px}.small{font-size:13px;color:var(--muted)}.checkpoint{font-size:14px;color:var(--teal);font-weight:650;padding-top:10px}.checklist{list-style:none;padding:0}.checklist label{display:flex;gap:10px;align-items:flex-start}.checklist input{margin-top:7px;accent-color:var(--teal)}.checklist input:checked+span{color:var(--muted);text-decoration:line-through}details{border-top:1px solid var(--line);padding:16px 0}summary{font-weight:650;cursor:pointer}details p{margin:12px 0 0}.quick-links{display:flex;gap:12px;flex-wrap:wrap}.quick-links a{background:#fff;color:var(--ink);padding:10px 18px;border-radius:4px;text-decoration:none;font-size:14px;font-weight:650}.quick-links a:first-child{background:#b32222;color:#fff}.foot{padding:0 32px;color:var(--muted);font-size:13px}@media(max-width:850px){.layout{display:block;padding:22px 15px}.layout aside{margin-bottom:22px}aside nav{position:static}aside a{display:inline-block;margin-right:14px}section{padding:24px 20px}header{padding:38px 24px}h2{font-size:25px}}@media print{body{background:white;font-size:11pt}header{background:white;color:#172333;padding:20px 0;border-top:4px solid #991b1b}header p{color:#586574}.layout{display:block;padding:0;max-width:none}aside,.quick-links,.print-control{display:none}section{border:0;padding:16px 0;margin:0}h2,h3,h4{break-after:avoid}pre,.note,tr{break-inside:avoid}pre{white-space:pre-wrap;overflow:visible;background:#f2f4f6;color:#172333}a{color:#172333}details{break-inside:avoid}.foot{padding:20px 0}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header>
+<div class="eyebrow">Md. Tanvir Ahmmed · Website owner guide</div>
+<h1>Your website.<br>Your publishing guide.</h1>
+<p>Open your HTML website today, or publish the complete website with a secure administrator dashboard. Follow the path that matches what you want to launch.</p>
+<div class="quick-links"><a href="#html">Publish the HTML edition</a><a href="#full">Publish with admin access</a><a href="#daily">Edit your website later</a></div>
+</header>
+<div class="layout">
+<aside><nav aria-label="Guide contents"><p class="eyebrow">On this page</p><a href="#choose">1. Choose your version</a><a href="#html">2. HTML: open & publish</a><a href="#full">3. Full website: preparation</a><a href="#database">4. Supabase & admin</a><a href="#github">5. Save code in GitHub</a><a href="#vercel">6. Vercel deployment</a><a href="#security">7. Inquiries & recovery</a><a href="#launch">8. Connect & launch</a><a href="#check">9. Launch checks</a><a href="#domain">10. Custom domain</a><a href="#daily">11. Editing & backups</a><a href="#help">12. Troubleshooting</a><button class="print-control" type="button" onclick="window.print()">Print / Save as PDF</button></nav></aside>
+<main>
+<section id="choose"><h2>Choose your version</h2>
+<p><strong>Recommended for your long-term website: the full Next.js + Supabase version.</strong> It meets your requirement to update content from <code>/admin</code> without editing code.</p>
+<div class="table-wrap"><table><thead><tr><th>Feature</th><th>HTML edition</th><th>Full website</th></tr></thead><tbody><tr><td>File to use</td><td><code>Md-Tanvir-Ahmmed-HTML-Edition.zip</code></td><td><code>Md-Tanvir-Ahmmed-Website.zip</code> — the original project</td></tr><tr><td>Public pages, photos, CV</td><td>Included in one HTML file</td><td>Loaded from your CMS</td></tr><tr><td>Search, filters, citations</td><td>Work in the browser</td><td>Use published database content</td></tr><tr><td>Admin editing & uploads</td><td>Not available</td><td>Secure login and editable content</td></tr><tr><td>Contact</td><td>Email links</td><td>Stored inquiries and private attachments</td></tr><tr><td>Content updates</td><td>Replace the HTML file</td><td>Edit and publish in the dashboard</td></tr><tr><td>Page URLs & SEO</td><td>One document with hash navigation</td><td>Separate URLs, metadata and sitemap</td></tr><tr><td>Hosting path in this guide</td><td>Cloudflare Pages direct upload</td><td>GitHub + Vercel + Supabase</td></tr></tbody></table></div>
+<p>The HTML edition is a snapshot dated 21 September 2026. It does not automatically receive later CMS changes. It contains 34 public views, your owner-published photographs and the privacy-redacted PDF CV. External academic links and email need an Internet connection.</p>
+<div class="note"><p><strong>You do not need to buy a domain to start.</strong> Use the address assigned by your hosting service first. Connect a personal domain when you are ready.</p></div>
+</section>
+
+<section id="html"><h2>Publish the HTML edition</h2>
+<h3><span class="step">1</span>Open it on your computer</h3>
+<ol><li>Download <code>Md-Tanvir-Ahmmed-HTML-Edition.zip</code> and extract it.</li><li>Open the <code>website</code> folder.</li><li>Double-click <code>index.html</code>. If it opens in a text editor, right-click → <strong>Open with → Chrome, Edge, Firefox or Safari</strong>.</li><li>Try the navigation, Publications filters, Search and Download CV. JavaScript must be enabled.</li></ol>
+<p>You can also open the separately supplied <code>Md-Tanvir-Ahmmed.html</code> directly. It is the same website. Fonts, photographs, styling, scripts and the PDF are embedded; no installation is needed.</p>
+<h3><span class="step">2</span>Upload it to Cloudflare Pages</h3>
+<ol><li>Sign in to your own Cloudflare account.</li><li>Go to <strong>Workers & Pages → Create application → Get started → Drag and drop your files</strong>. Choose the Pages direct-upload flow if the dashboard offers several options.</li><li>Enter a project name such as <code>tanvir-ahmmed</code>; availability determines the final address.</li><li>Upload the extracted <strong><code>website</code> folder</strong>. It must contain <code>index.html</code> at its top level. Do not upload the full Next.js project here.</li><li>Select <strong>Deploy site</strong>. Open the <code>pages.dev</code> address Cloudflare gives you.</li></ol>
+<p class="small">Cloudflare supports folder or ZIP uploads in this flow. If using a ZIP, zip the contents of <code>website</code> so <code>index.html</code> is at the ZIP root. <a href="https://developers.cloudflare.com/pages/get-started/direct-upload/">Official direct-upload instructions</a>.</p>
+<h3><span class="step">3</span>Check and share your address</h3>
+<p>Open the site on your phone. Confirm the menu, portrait, publication filters, email link and CV download. Keep the HTML file as your backup. When its content changes, upload a replacement through the same Pages project.</p>
+<div class="note important"><p><strong>Admin editing requires the full website.</strong> Uploading this HTML file does not create <code>/admin</code>, a database, password recovery or an inquiry inbox. The contact button opens an email application; it does not submit a saved form.</p></div>
+<p class="checkpoint">Done: you have a shareable public HTML website.</p>
+</section>
+
+<section id="full"><h2>Publish the full website with admin access</h2>
+<p>Use a laptop or desktop for these one-time setup steps. After setup, routine content editing happens in your browser.</p>
+<h3><span class="step">1</span>Prepare your accounts and project</h3>
+<ul><li>Your original <code>Md-Tanvir-Ahmmed-Website.zip</code>, extracted to a folder you can find.</li><li>A GitHub account for the source code and GitHub Desktop installed.</li><li>A Supabase account for the database, login and uploaded files.</li><li>A Vercel account for running the application.</li><li>A Cloudflare account for the Turnstile spam-protection widget.</li><li><a href="https://nodejs.org/en/download">Node.js LTS</a> installed — version 22 or newer. The installer includes npm.</li></ul>
+<p>The project folder is the folder containing <code>package.json</code>, <code>README.md</code>, <code>app</code>, <code>public</code> and <code>supabase</code>.</p>
+<div class="note"><p><strong>Hosting plan:</strong> Vercel Hobby is limited to personal, non-commercial use. For a website offering paid consulting, select a plan that permits commercial use. Check provider pricing and usage limits before activating paid services. <a href="https://vercel.com/docs/plans/hobby">Vercel Hobby terms</a>.</p></div>
+<h3><span class="step">2</span>Run the local visual preview</h3>
+<p><strong>Windows:</strong> open the project folder in File Explorer. Click its address bar, type <code>cmd</code>, then press Enter. Run these commands one line at a time:</p>
+<pre><code>node -v
+npm -v
+npm ci
+copy .env.example .env.local
+npm run dev</code></pre>
+<p><strong>macOS / Linux:</strong> use Terminal in the project folder and replace the copy command with <code>cp .env.example .env.local</code>. In Windows PowerShell, use <code>Copy-Item .env.example .env.local</code>.</p>
+<p>Open <code>http://localhost:3000</code>. Keep the terminal running. This is a preview on your computer; the admin panel and inquiry storage are not connected yet. Press <strong>Ctrl+C</strong> in the terminal to stop the preview before changing the settings below.</p>
+<p class="checkpoint">Checkpoint: the homepage opens locally with your name, photo and content.</p>
+</section>
+
+<section id="database"><h2>Set up Supabase and your administrator</h2>
+<h3><span class="step">3</span>Create the database</h3>
+<ol><li>In Supabase, create a <strong>new project</strong>. Give it a recognisable name and save the database password securely.</li><li>Wait for the project to be ready, then open its <strong>SQL Editor</strong>.</li><li>On your computer, open <code>supabase/migrations/001_initial.sql</code> in a text editor.</li><li>Copy the complete SQL into a new query in Supabase and select <strong>Run</strong>. Run this initial migration once in the new project.</li><li>Confirm the query succeeds. The migration creates the content tables, administrator allowlist, security policies and storage buckets.</li></ol>
+<p>Keep <code>site-media</code> and <code>inquiry-attachments</code> private. The application controls public media delivery and private inquiry attachments. Do not switch these buckets to public to fix a setup error.</p>
+<h3><span class="step">4</span>Add your keys and create the admin account</h3>
+<ol><li>Find the project URL and API keys in the Supabase <strong>Connect</strong> dialog or <strong>Settings → API Keys</strong>.</li><li>Open <code>.env.local</code> on your computer. Fill in the values below. Keep the other lines from the example file.</li><li>In Supabase <strong>Authentication → Users</strong>, create an email/password user for yourself. Use your actual administrator email and a unique password. If offered, mark this owner account as email-confirmed.</li><li>Set <code>ADMIN_EMAIL</code> to that exact email. Disable public signups in Supabase Auth settings for this owner-only site.</li></ol>
+<pre><code>NEXT_PUBLIC_SITE_URL=http://localhost:3000
+NEXT_PUBLIC_SUPABASE_URL=https://YOUR_PROJECT.supabase.co
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=YOUR_PUBLISHABLE_KEY
+SUPABASE_SERVICE_ROLE_KEY=YOUR_SERVER_SECRET_KEY
+ADMIN_EMAIL=YOUR_ADMIN_EMAIL
+CONTENT_PREVIEW=false</code></pre>
+<p>The modern publishable key starts with <code>sb_publishable_</code>; the server secret starts with <code>sb_secret_</code>. This project's server variable is named <code>SUPABASE_SERVICE_ROLE_KEY</code>: put the backend secret there. A legacy service-role key can also be used if that is what your project provides. Keep server secrets out of public content, GitHub and chat. <a href="https://supabase.com/docs/guides/getting-started/api-keys">Supabase key guidance</a>.</p>
+<h3><span class="step">5</span>Load your content and test login</h3>
+<p>In the terminal, from the project folder, run:</p>
+<pre><code>npm run seed
+npm run dev</code></pre>
+<p>The seed command authorises your existing account, loads the initial website content and uploads the bundled photographs and public CV. It does not create a password. Existing content is preserved when the command is run again.</p>
+<p>Open <code>http://localhost:3000/admin/login</code> and sign in. You should reach <code>/admin/dashboard</code>. Review the dashboard's verification notes before publishing uncertain content. The live inquiry form will be ready after Turnstile is configured.</p>
+<p class="checkpoint">Checkpoint: you can sign in and see your editable content in the dashboard.</p>
+</section>
+
+<section id="github"><h2>Save the source code in GitHub</h2>
+<h3><span class="step">6</span>Publish a private repository</h3>
+<ol><li>Open GitHub Desktop and sign in to your own GitHub account.</li><li>Choose <strong>File → Add local repository</strong> and select the extracted project folder.</li><li>If Desktop says the folder is not a Git repository, use its <strong>create a repository here</strong> option. Ensure the resulting repository folder is the same folder that contains <code>package.json</code>. Preserve the supplied files and <code>.gitignore</code>.</li><li>Review the Changes list. <code>.env.local</code>, <code>node_modules</code>, <code>.next</code> and backups must not be included. The supplied <code>.gitignore</code> excludes them. <code>.env.example</code> should be included because it contains placeholders.</li><li>If changes are waiting to be committed, enter a summary such as <em>Initial academic website</em> and commit them.</li><li>Select <strong>Publish repository</strong>, name it <code>tanvir-academic-website</code>, leave <strong>Keep this code private</strong> checked, and publish.</li></ol>
+<p class="small">Official help: <a href="https://docs.github.com/en/desktop/adding-and-cloning-repositories/adding-a-repository-from-your-local-computer-to-github-desktop">add a local repository</a> and <a href="https://docs.github.com/en/desktop/adding-and-cloning-repositories/adding-an-existing-project-to-github-using-github-desktop">publish an existing project</a>.</p>
+<p>Open the repository on GitHub. Its top level should show <code>package.json</code> and the application folders. The ZIP file by itself is not a deployable repository.</p>
+</section>
+
+<section id="vercel"><h2>Create the Vercel deployment</h2>
+<h3><span class="step">7</span>Get your website address</h3>
+<ol><li>In Vercel, create a <strong>New Project</strong>, connect GitHub and import your private repository.</li><li>Select the <strong>Next.js</strong> framework. The Root Directory must contain <code>package.json</code>.</li><li>Use <code>npm ci</code> for installation and <code>npm run build</code> for the build. Keep Next.js's default output setting. Select a supported Node.js version of 22 or newer.</li><li>For this initial preview deployment, add only the two environment variables below. Leave Supabase and Turnstile variables unset for this first deployment.</li><li>Deploy, then copy the stable production <code>vercel.app</code> address shown in the project's Domains area. Use that address consistently in the next steps.</li></ol>
+<pre><code>CONTENT_PREVIEW=true
+NEXT_PUBLIC_SITE_URL=http://localhost:3000</code></pre>
+<p>This temporary deployment displays the bundled preview so you can obtain the hosting address. Its localhost setting must be replaced before launch, and it does not accept admin edits or inquiries. <a href="https://vercel.com/docs/getting-started-with-vercel">Vercel deployment instructions</a>.</p>
+<p class="checkpoint">Checkpoint: you have the actual website address Vercel assigned. You have not finished connecting the live backend yet.</p>
+</section>
+
+<section id="security"><h2>Enable inquiries and password recovery</h2>
+<h3><span class="step">8</span>Create your Turnstile widget</h3>
+<ol><li>In Cloudflare, open <strong>Turnstile</strong> and add a widget for this website.</li><li>Add your actual Vercel production hostname, without <code>https://</code> or a path. Select the managed widget mode.</li><li>Save its public site key and private secret key for the environment variables in the next step. You do not need to move your domain's DNS to Cloudflare to use Turnstile.</li></ol>
+<p>The application already renders and verifies Turnstile. You only need to supply the keys and correct hostname. <a href="https://developers.cloudflare.com/turnstile/get-started/">Turnstile setup</a>.</p>
+<p>Generate a separate random value for <code>RATE_LIMIT_SALT</code> by running this command on your computer, then save its output securely:</p>
+<pre><code>node -e "console.log(require('node:crypto').randomBytes(32).toString('hex'))"</code></pre>
+<h3><span class="step">9</span>Configure password-recovery URLs and email</h3>
+<p>In Supabase <strong>Authentication → URL Configuration</strong>, set:</p>
+<ul><li><strong>Site URL:</strong> your exact production origin, for example <code>https://YOUR_ACTUAL_SITE.vercel.app</code>.</li><li><strong>Redirect URL:</strong> the same origin followed by <code>/auth/callback</code>.</li><li>For local testing, also allow <code>http://localhost:3000/auth/callback</code>.</li></ul>
+<p>Use your assigned address in place of the example. <a href="https://supabase.com/docs/guides/auth/redirect-urls">Supabase redirect configuration</a>.</p>
+<p>Configure a production SMTP email service in Supabase Auth using an email-sending account you control. Follow that provider's sender verification instructions. The default Supabase email service has restrictions and should not be relied on for production recovery. <a href="https://supabase.com/docs/guides/auth/auth-smtp">Supabase SMTP setup</a>.</p>
+<p>For this project's password reset flow, request the reset and open the emailed link in the same browser. The callback then opens the reset-password screen. This site stores contact inquiries in the dashboard; automatic new-inquiry notification emails are not enabled.</p>
+</section>
+
+<section id="launch"><h2>Connect the live backend and launch</h2>
+<h3><span class="step">10</span>Set production environment variables</h3>
+<p>In Vercel <strong>Project → Settings → Environment Variables</strong>, add or update the following for <strong>Production</strong>. Use the same Supabase project you seeded locally.</p>
+<div class="table-wrap"><table><thead><tr><th>Variable name — copy exactly</th><th>Value</th></tr></thead><tbody>
+<tr><td><code>NEXT_PUBLIC_SITE_URL</code></td><td>Your actual <code>https://…vercel.app</code> origin; no path or trailing slash</td></tr>
+<tr><td><code>NEXT_PUBLIC_SUPABASE_URL</code></td><td>Your Supabase project URL</td></tr>
+<tr><td><code>NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY</code></td><td>Supabase publishable key</td></tr>
+<tr><td><code>SUPABASE_SERVICE_ROLE_KEY</code></td><td>Supabase backend secret; server only</td></tr>
+<tr><td><code>NEXT_PUBLIC_TURNSTILE_SITE_KEY</code></td><td>Turnstile public site key</td></tr>
+<tr><td><code>TURNSTILE_SECRET_KEY</code></td><td>Turnstile private secret; server only</td></tr>
+<tr><td><code>RATE_LIMIT_SALT</code></td><td>The random value generated in Step 8; server only</td></tr>
+<tr><td><code>CONTENT_PREVIEW</code></td><td><code>false</code></td></tr>
+</tbody></table></div>
+<p><code>ADMIN_EMAIL</code> is used by the local seed script; it is not required by the running Vercel site. Enter values without placeholder text, extra quotes or spaces. Never rename a server-only secret with a <code>NEXT_PUBLIC_</code> prefix.</p>
+<h3><span class="step">11</span>Redeploy</h3>
+<p>Save the variables. In <strong>Deployments</strong>, redeploy the production deployment. Environment changes apply to a new deployment; an already-running build does not receive them automatically. <a href="https://vercel.com/docs/environment-variables">Vercel environment variables</a>.</p>
+<p>When the deployment is Ready, open the production address. Visit <code>/admin/login</code>, sign in and check the dashboard. Keep your local <code>NEXT_PUBLIC_SITE_URL</code> at <code>http://localhost:3000</code> for local development; the hosted Vercel value must be the public HTTPS address.</p>
+<p class="checkpoint">Checkpoint: the live site reads your database and your authorised administrator can sign in.</p>
+</section>
+
+<section id="check"><h2>Check the live site before sharing widely</h2>
+<p>The supplied source was checked locally. Hosted authentication, uploads, password recovery and inquiry delivery still need to be tested against your newly configured accounts.</p>
+<ul class="checklist">
+<li><label><input type="checkbox"><span>Open every main page on your computer and phone. Check the mobile menu, search and publication filters.</span></label></li>
+<li><label><input type="checkbox"><span>Sign in at /admin/login. Review flagged content and confirm your biography, dates, email, memberships and external profiles.</span></label></li>
+<li><label><input type="checkbox"><span>Add or edit a real publication. Save a draft and preview it. Publish it; confirm the list, detail page, search, sitemap.xml and homepage when Featured is enabled.</span></label></li>
+<li><label><input type="checkbox"><span>Change and crop your profile photo. Publish and refresh the public page to check the image.</span></label></li>
+<li><label><input type="checkbox"><span>Upload your approved PDF CV, set it as current and publish. Confirm every Download CV button returns it.</span></label></li>
+<li><label><input type="checkbox"><span>Update a research project's description, status and methods. Publish and confirm the detail page updates.</span></label></li>
+<li><label><input type="checkbox"><span>Submit a clearly labelled test inquiry from the live contact page. Confirm it arrives in Admin → Messages and its attachment opens.</span></label></li>
+<li><label><input type="checkbox"><span>Test password recovery in the same browser where you requested it, then sign in with the new password.</span></label></li>
+<li><label><input type="checkbox"><span>Log out. Confirm /admin/dashboard requires authentication. Check a deliberately missing page shows the 404 screen.</span></label></li>
+<li><label><input type="checkbox"><span>Create your first backup, remove temporary test content, and share the production address.</span></label></li>
+</ul>
+<p class="small">These checkboxes are a reading aid, not a saved launch record. Print this guide or save it as PDF if you want a permanent checklist.</p>
+</section>
+
+<section id="domain"><h2>Connect a custom domain later</h2>
+<ol><li>Register a domain you choose, or use one you already own.</li><li>For the full website, open <strong>Vercel → Project → Settings → Domains</strong> and add it.</li><li>At your domain provider, enter the exact DNS records Vercel displays. Wait for domain verification and HTTPS readiness. <a href="https://vercel.com/docs/domains/working-with-domains/add-a-domain">Vercel domain instructions</a>.</li><li>Choose one primary address, such as the bare domain or the <code>www</code> version, and use it consistently.</li><li>Update Vercel's <code>NEXT_PUBLIC_SITE_URL</code>, Supabase's Site URL and <code>/auth/callback</code> redirect, and the Turnstile hostname.</li><li>Redeploy and repeat the contact and password-reset checks on the new domain. Update any explicit canonical URLs previously entered in Admin → SEO Settings.</li></ol>
+<p>If you published only the HTML edition, use the Pages project's custom-domain settings instead. The full Next.js application's admin features still require its server and Supabase.</p>
+</section>
+
+<section id="daily"><h2>Edit and maintain your website</h2>
+<p>For the full website, go to your domain followed by <code>/admin/login</code>. These everyday tasks do not require GitHub or source-code changes:</p>
+<div class="table-wrap"><table><thead><tr><th>What you want to change</th><th>Where to go</th></tr></thead><tbody><tr><td>Name, professional title, profile photo</td><td>Profile → Edit</td></tr><tr><td>Biography and research philosophy</td><td>About</td></tr><tr><td>Homepage order and visibility</td><td>Homepage</td></tr><tr><td>Research, methods and galleries</td><td>Research Projects</td></tr><tr><td>New journal or conference paper</td><td>Publications / Conference Papers → Add</td></tr><tr><td>Current PDF CV</td><td>CV → Add CV Version → Set as current CV → Publish</td></tr><tr><td>Image, ALT text, caption or replacement</td><td>Media Library</td></tr><tr><td>Services, experience and leadership</td><td>The matching sidebar section</td></tr><tr><td>Email, colours, navigation, footer</td><td>Website Settings</td></tr><tr><td>Search-engine titles and descriptions</td><td>SEO Settings</td></tr><tr><td>Inquiries</td><td>Messages</td></tr><tr><td>Portable content copy</td><td>Backup / Export</td></tr></tbody></table></div>
+<p><strong>Draft</strong> keeps an entry private. <strong>Publish</strong> makes it available when Show on website is enabled. <strong>Featured</strong> includes eligible items on the homepage. Refresh an already-open public page to see new content. Use Trash for recoverable deletion.</p>
+<h3>Back up the content and files</h3>
+<p>Use Admin → Backup / Export for JSON or CSV copies. Those exports contain content and media references; they do not include every uploaded file's bytes. For a content-and-files backup, run this from your local project with the correct server credentials in <code>.env.local</code>:</p>
+<pre><code>npm run backup</code></pre>
+<p>The command saves a dated folder under <code>backups</code>, including media and inquiry attachments. Store encrypted copies elsewhere. Keep Supabase database backups as well; authentication accounts require their own backup/recreation process. See the project's <code>docs/BACKUP.md</code>. Never publish backups, which may contain private messages.</p>
+<p>Routine content edits stay in Supabase. For future application fixes or dependency updates, commit the reviewed code in GitHub Desktop and push it; Vercel can deploy the new version. Keep the original ZIP and this guide.</p>
+</section>
+
+<section id="help"><h2>If something does not work</h2>
+<details><summary>The HTML download opens as text or inside a file preview.</summary><p>Save the file to your computer, then open it with a browser. Confirm the filename ends in <code>.html</code>, not <code>.html.txt</code>. Some document previews deliberately do not run JavaScript; use the actual browser file.</p></details>
+<details><summary>I uploaded the HTML but /admin does not exist.</summary><p>That is expected for the HTML snapshot. Follow the full website steps using the original Next.js project ZIP to get an administrator dashboard.</p></details>
+<details><summary>The HTML hosting address shows a 404.</summary><p>Check the upload's root contains <code>index.html</code>. Upload the <code>website</code> folder's contents, rather than a parent folder containing another website folder.</p></details>
+<details><summary>“npm is not recognised” or PowerShell blocks npm.ps1.</summary><p>Install Node.js LTS, then reopen the terminal. On Windows, run the guide's commands in Command Prompt (<code>cmd</code>) instead of changing PowerShell security settings.</p></details>
+<details><summary>npm cannot find package.json.</summary><p>You are in the wrong folder. Open the extracted project's inner folder containing <code>package.json</code>, then open the terminal there.</p></details>
+<details><summary>The SQL migration reports a table already exists.</summary><p>Do not delete tables or rerun fragments blindly. Check whether the migration already completed. This initial schema is for a new Supabase project; preserve any existing data and inspect the exact error.</p></details>
+<details><summary>Seeding says the administrator was not found.</summary><p>Create the email/password user in the same Supabase project's Authentication → Users first. Check that <code>ADMIN_EMAIL</code> matches exactly and both Supabase keys belong to that project.</p></details>
+<details><summary>Admin login fails or I am not authorised.</summary><p>Check the email/password, confirm the account is enabled and email-confirmed, and ensure <code>npm run seed</code> completed for that email. A Supabase login alone does not grant admin access; the account must be in the allowlist. Restart locally or redeploy after changing keys.</p></details>
+<details><summary>The deployed site still says preview or content edits do not show.</summary><p>Confirm Production has both Supabase client settings, the correct backend key and <code>CONTENT_PREVIEW=false</code>. Redeploy. Check the edited item is Published, Show on website is enabled, and the relevant homepage section is visible. Refresh the public page.</p></details>
+<details><summary>The contact form fails its security check.</summary><p>Confirm the Turnstile widget allows the exact hostname you are visiting. Check the public site key and matching secret, the random salt, and that <code>NEXT_PUBLIC_SITE_URL</code> matches the production HTTPS origin. Redeploy after corrections. Test on the stable production domain.</p></details>
+<details><summary>Password-reset email does not arrive or the link fails.</summary><p>Check spam, SMTP delivery logs and your verified sender configuration. Confirm Supabase allows the production <code>/auth/callback</code> URL. Request a fresh link and open it in the same browser where you requested the reset.</p></details>
+<details><summary>Vercel's build fails.</summary><p>Read the first meaningful error in the build logs. Check the Root Directory, Node version, committed <code>package-lock.json</code>, and environment values. Run <code>npm ci</code> followed by <code>npm run build</code> locally to compare. Do not upload only the ZIP or select static HTML output for the full project.</p></details>
+<details><summary>A media upload is rejected.</summary><p>Use a supported image or PDF. This project limits admin uploads to 4 MB after image optimisation and inquiry attachments to 3 MB. Compress an oversized PDF before trying again. Leave storage buckets private.</p></details>
+<p class="note">If you need help with a failed step, share the step number and the error text with secrets removed. Keep passwords, API secret keys and recovery links private.</p>
+</section>
+<p class="foot">Prepared for Md. Tanvir Ahmmed · 21 September 2026. Platform labels can change; official documentation links are included beside the relevant steps. This guide does not create accounts, purchase services or publish a site automatically.</p>
+</main></div>
+</body></html>
