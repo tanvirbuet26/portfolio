@@ -1,0 +1,14 @@
+node_modules/
+.next/
+.env*
+!.env.example
+test-results/
+playwright-report/
+*.tsbuildinfo
+.DS_Store
+backups/
+
+.next-dev/
+playwright-report/
+test-results/
+*.auth.json
